@@ -7,7 +7,7 @@ randomInteger(1, 8);
 
 let mapPins = [];
 let houses = ["Гостинница", "Хостел", "Квартира", "Дом", "Общага", "Баня"];
-let adresses = ["top:400px left:800px", "top:500px left:900px", "top:700px left:500px", "top:600px left:400px", "top:300px left:300px", "top:200px left:100px", "top:350px left:450px"];
+let adresses = ["top:300px left:130px", "top:350px left:1700px", "top:400px left:2300px", "top:450px left:330px", "top:500px left:370px", "top:550px left:430px", "top:600px left:530px", "top:650px left:630px"];
 let prices = [1200, 900, 1000, 1100, 800, 600, 500, 450];
 let types = ["palace", "flat", "house", "bungalo"];
 let roomses = [1, 2, 3, 4, 5, 6, 7, 8];
@@ -15,8 +15,8 @@ let guestses = [1, 2, 3, 4, 5, 6, 7, 8];
 let checkins = ["12:00", "13:00", "14:00"];
 let checkouts = ["12:00", "13:00", "14:00"];
 let featureses = ["wifi", "dishwasher", "parking", "washer", "elevator", "conditioner"];
-let x = [200, 300, 350, 400, 500, 600, 700, 800, 900,];
-let y = [100, 300, 450, 500, 600, 700, 800, 900];
+let x = [300, 350, 400, 450, 500, 550, 600, 650,];
+let y = [130, 170, 230, 330, 370, 430, 530, 630,];
 
 for (let index = 0; index < 8; index++) {
     let pin = {
